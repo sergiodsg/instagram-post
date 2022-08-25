@@ -1,0 +1,74 @@
+body {
+    background: #dfdfdf;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+.container-buttons{
+    display: flex;
+}
+.buttons{
+    padding: 4px;
+}
+.left-buttons{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.right-button{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+header img{
+    margin: 0;
+    height: 50px;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px solid #bdbdbd;
+}
+div.post img{
+    width: 100%;
+}
+div.post .post-header {
+    display: flex;
+    align-items: center;
+}
+div.post .post-header div #profile-pic{
+    max-height: 45px;
+    max-width: 45px;
+    margin: auto;
+    border-radius: 50%;
+}
+div.post .post-header div:first-child{
+    display: inline-flex;
+    width: 10%;
+    align-items: center;
+}
+div.post .post-header div:nth-child(2){
+    display: inline-block;
+    width: 70%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.post h2 div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
